@@ -3,8 +3,8 @@ project(robot_avoiding_wall)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(read_write_wall src/read_write_wall .cpp)
-add_dependencies(read_write_wall  ${laser_subscriber_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_executable(read_write_wall robot-avoding-wall/src/read_write_wall .cpp)
+add_dependencies(read_write_wall  ${read_write_wall_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(read_write_wall
         ${catkin_LIBRARIES}
         )
