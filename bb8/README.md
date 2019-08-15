@@ -1,1 +1,1 @@
-![](assets/sqaure.mov)
+![](assets/sqaure.gif)
