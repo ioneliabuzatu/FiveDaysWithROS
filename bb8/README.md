@@ -1,1 +1,1 @@
-![](assets/sqaure.gif)
+![](assets/bb8_gif.gif)
